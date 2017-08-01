@@ -27,4 +27,4 @@ chmod 777 /sbin/shutdown
 cp bl-exit /usr/bin/bl-exit
 echo "Done. Please install your GPU driver" 
 echo "(The packages are xserver-xorg-video-ati xserver-xorg-video radeon for AMD/ATi hardware"
-echo "and xserver-xorg-video-nvidia* for NVIDIA)."
+echo "and xserver-xorg-video-nvidia* for NVIDIA), and reboot."
