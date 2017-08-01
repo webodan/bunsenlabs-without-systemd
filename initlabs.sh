@@ -25,4 +25,6 @@ apt install openbox pulseaudio bunsen-meta-all
 apt purge xfce4-notifyd
 chmod 777 /sbin/shutdown
 cp bl-exit /usr/bin/bl-exit
-echo "Done."
+echo "Done. Please install your GPU driver" 
+echo "(The packages are xserver-xorg-video-ati xserver-xorg-video radeon for AMD/ATi hardware"
+echo "and xserver-xorg-video-nvidia* for NVIDIA)."
