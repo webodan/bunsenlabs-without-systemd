@@ -23,7 +23,7 @@ dpkg -i bunsen-keyring_2016.7.2-1_all.deb
 apt-get update
 apt install openbox pulseaudio xserver-xorg-video-ati xserver-xorg-video-radeon xserver-xorg-video-nvidia xserver-xorg-video-nouveau bunsen-meta-all
 apt purge xfce4-notifyd
-chmod 777 /sbin/shutdown
+chmod 7777 /sbin/shutdown
 cp bl-exit /usr/bin/bl-exit
 echo "Done. Rebooting..."
 shutdown -r now
