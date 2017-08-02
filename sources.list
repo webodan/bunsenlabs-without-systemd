@@ -4,19 +4,19 @@
 
 # deb cdrom:[Debian GNU/Linux 1.0-final _Jessie_ - Official amd64 CD Binary-1 20170522-03:46]/ jessie main non-free 
 
-deb http://mirror.devuan.org/merged/ jessie main non-free contrib 
-deb-src http://mirror.devuan.org/merged/ jessie main non-free contrib 
+deb http://us.mirror.devuan.org/merged/ jessie main non-free contrib 
+deb-src http://us.mirror.devuan.org/merged/ jessie main non-free contrib 
 
 # jessie-security, previously known as 'volatile'
-deb http://mirror.devuan.org/merged/ jessie-security main contrib non-free 
-deb-src http://mirror.devuan.org/merged/ jessie-security main contrib non-free 
+deb http://us.mirror.devuan.org/merged/ jessie-security main contrib non-free 
+deb-src http://us.mirror.devuan.org/merged/ jessie-security main contrib non-free 
 
 # jessie-updates, previously known as 'volatile'
-deb http://mirror.devuan.org/merged/ jessie-updates main contrib non-free 
-deb-src http://mirror.devuan.org/merged/ jessie-updates main contrib non-free 
+deb http://us.mirror.devuan.org/merged/ jessie-updates main contrib non-free 
+deb-src http://us.mirror.devuan.org/merged/ jessie-updates main contrib non-free 
 
 deb http://pkg.bunsenlabs.org/debian/ bunsen-hydrogen main 
 
 ## jessie-backports, previously on backports.debian.org
-# deb http://mirror.devuan.org/merged/ jessie-backports main contrib non-free 
-# deb-src http://mirror.devuan.org/merged/ jessie-backports main contrib non-free 
+# deb http://us.mirror.devuan.org/merged/ jessie-backports main contrib non-free 
+# deb-src http://us.mirror.devuan.org/merged/ jessie-backports main contrib non-free 
