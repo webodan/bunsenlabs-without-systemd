@@ -26,7 +26,7 @@ apt purge xfce4-notifyd
 chmod 777 /sbin/shutdown
 cp bl-exit /usr/bin/bl-exit
 echo "Done. Please install drivers for your gpu
-echo "apt install xserver-xorg-video-ati xserver-xorg-video-radeon for ati/amd
+echo "apt install xserver-xorg-video-ati xserver-xorg-video-radeon for ati/amd"
 echo "apt install xserver-xorg-video-nvidia xserver-xorg-video-nouveau for nvidia"
 echo "and then reboot, having checked that all the steps above were made correctly"
 echo "to enjoy your new systemd-free bunsenlabs"
