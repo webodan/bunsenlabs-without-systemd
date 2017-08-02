@@ -32,8 +32,6 @@ if [ "$input" = "a" ]; then
 apt install xserver-xorg-video-radeon xserver-xorg-video-ati
 elif ["$input" = "n" ]; then
 apt install xserver-xorg-video-nvidia xserver-xorg-video-nouveau
-else
-echo "Done."
 fi
-done
 echo "Done. Rebooting..."
+exit
