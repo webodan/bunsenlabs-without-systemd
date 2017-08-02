@@ -30,8 +30,7 @@ while true; do
 read -rsn1 input
 if [ "$input" = "a" ]; then
 apt install xserver-xorg-video-radeon xserver-xorg-video-ati
-else
-if ["$input" = "n" ]; then
+elif ["$input" = "n" ]; then
 apt install xserver-xorg-video-nvidia xserver-xorg-video-nouveau
 else
 echo "Done."
