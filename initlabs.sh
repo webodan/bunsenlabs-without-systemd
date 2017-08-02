@@ -33,5 +33,5 @@ apt install xserver-xorg-video-radeon xserver-xorg-video-ati
 elif ["$input" = "n" ]; then
 apt install xserver-xorg-video-nvidia xserver-xorg-video-nouveau
 fi
-echo "Done. Rebooting..."
+echo "Done. Please reboot if the drivers were installed successfully."
 exit
